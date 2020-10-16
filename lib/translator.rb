@@ -41,7 +41,11 @@ def get_japanese_emoticon(file, emoticon)
       if emoticon == face
         japanese_emoticon = emoticon_language[:japanese]
       end
-  end 
-end 
+    end 
+  end
+    if japanese_emoticon == nil
+      japanese_emoticon = sorry_message
+    end
+  japanese_emoticon
 end 
 

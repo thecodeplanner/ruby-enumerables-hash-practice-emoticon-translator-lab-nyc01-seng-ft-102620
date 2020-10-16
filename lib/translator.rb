@@ -25,6 +25,9 @@ def get_english_meaning(file, emoticon)
       end
     end
   end
+    if english_meaning == nil
+        sorry_message
+    end
   english_meaning
 end 
 

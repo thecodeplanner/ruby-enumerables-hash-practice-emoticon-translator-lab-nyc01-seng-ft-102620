@@ -23,8 +23,8 @@ def get_english_meaning(file, emoticon)
       if emoticon == face 
         english_meaning = meaning
       end
-      english_meaning
     end
+    english_meaning
 end
 end 
 

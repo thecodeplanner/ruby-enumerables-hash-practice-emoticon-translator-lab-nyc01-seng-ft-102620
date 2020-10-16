@@ -19,11 +19,11 @@ def get_english_meaning(file, emoticon)
   english_meaning = nil
   sorry_message = "Sorry, that emoticon was not found"
   library_check.each do |meaning, emoticon_language|
-    binding.pry
     emoticon_language.each do |language, face|
       if emoticon == face 
         english_meaning = meaning
       end
+      english_meaning
     end
 end
 end 

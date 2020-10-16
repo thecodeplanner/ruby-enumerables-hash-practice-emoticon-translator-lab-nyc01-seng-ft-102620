@@ -22,6 +22,7 @@ def get_english_meaning(file, emoticon)
     emoticon_language.each do |language, face|
       if emoticon == face 
         english_meaning = meaning
+        binding.pry
       end
     end
 end
